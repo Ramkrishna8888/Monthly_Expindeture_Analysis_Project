@@ -1,0 +1,36 @@
+Monthly Expenditure Analysis involves reading a CSV file containing expense data and performing various tasks to analyze the data. Here's a brief explanation of how the analysis works and the tasks performed:
+
+Reading CSV File:
+
+A CSV file (e.g., expense_data_1.csv) containing monthly expenditures is read using Python’s csv.DictReader(). Each row in the file represents a transaction with fields such as Date, Category, Amount, and Currency (INR).
+Tasks Performed: The program performs 10 different tasks to analyze the data:
+
+Print First 5 Rows:
+Displays the first 5 transactions to give an overview of the data.
+
+Create and Print Tuples of Dates and Categories:
+Extracts all the dates and categories from the transactions and creates tuples, which are then printed.
+
+Find Maximum and Minimum Transaction Amounts:
+Finds and prints the highest and lowest amounts spent during the month.
+
+Count Transactions by Category:
+Counts the number of transactions in each category (e.g., Groceries, Utilities) and prints the result.
+
+Print Unique Categories:
+Identifies and prints all unique expense categories from the dataset.
+
+Print Unique Dates:
+Prints all the unique dates when the transactions were made, excluding time information.
+
+Total Amount for a Specific Category:
+Allows the user to specify a category and calculates the total expenditure in that category.
+
+Transactions Above a Certain Amount:
+Finds and prints all transactions where the amount exceeds a user-defined value.
+
+Total Amount of All Transactions:
+Sums up the total expenditure for the entire dataset.
+
+Average Amount of All Transactions:
+Calculates and prints the average amount spent per transaction.
